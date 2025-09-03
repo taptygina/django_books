@@ -1,0 +1,50 @@
+[
+  {"model": "catalog.book", "pk": 1, "fields": {
+    "title": "Книга 1", "genre": 1, "language": 1, "publisher": 1,
+    "year": "2001", "author": [1, 4],
+    "summary": "Краткое описание книги 1",
+    "isbn": "9780000000001", "price": "199.99", "photo": null
+  }},
+  {"model": "catalog.book", "pk": 2, "fields": {
+    "title": "Книга 2", "genre": 2, "language": 2, "publisher": 2,
+    "year": "2002", "author": [2, 5],
+    "summary": "Краткое описание книги 2",
+    "isbn": "9780000000002", "price": "209.99", "photo": null
+  }},
+  {"model": "catalog.book", "pk": 3, "fields": {
+    "title": "Книга 3", "genre": 3, "language": 3, "publisher": 3,
+    "year": "2003", "author": [3, 6],
+    "summary": "Краткое описание книги 3",
+    "isbn": "9780000000003", "price": "219.99", "photo": null
+  }},
+  {"model": "catalog.book", "pk": 4, "fields": {
+    "title": "Книга 4", "genre": 4, "language": 4, "publisher": 4,
+    "year": "2004", "author": [4, 7],
+    "summary": "Краткое описание книги 4",
+    "isbn": "9780000000004", "price": "229.99", "photo": null
+  }},
+  {"model": "catalog.book", "pk": 5, "fields": {
+    "title": "Книга 5", "genre": 5, "language": 5, "publisher": 5,
+    "year": "2005", "author": [5, 8],
+    "summary": "Краткое описание книги 5",
+    "isbn": "9780000000005", "price": "239.99", "photo": null
+  }},
+  {"model": "catalog.book", "pk": 6, "fields": {
+    "title": "Книга 6", "genre": 6, "language": 6, "publisher": 6,
+    "year": "2006", "author": [6, 1],
+    "summary": "Краткое описание книги 6",
+    "isbn": "9780000000006", "price": "249.99", "photo": null
+  }},
+  {"model": "catalog.book", "pk": 7, "fields": {
+    "title": "Книга 7", "genre": 7, "language": 7, "publisher": 7,
+    "year": "2007", "author": [7, 2],
+    "summary": "Краткое описание книги 7",
+    "isbn": "9780000000007", "price": "259.99", "photo": null
+  }},
+  {"model": "catalog.book", "pk": 8, "fields": {
+    "title": "Книга 8", "genre": 8, "language": 8, "publisher": 8,
+    "year": "2008", "author": [8, 3],
+    "summary": "Краткое описание книги 8",
+    "isbn": "9780000000008", "price": "269.99", "photo": null
+  }}
+]

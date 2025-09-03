@@ -1,0 +1,10 @@
+[
+  {"model": "catalog.genre", "pk": 1, "fields": {"name": "Роман"}},
+  {"model": "catalog.genre", "pk": 2, "fields": {"name": "Фантастика"}},
+  {"model": "catalog.genre", "pk": 3, "fields": {"name": "Детектив"}},
+  {"model": "catalog.genre", "pk": 4, "fields": {"name": "Фэнтези"}},
+  {"model": "catalog.genre", "pk": 5, "fields": {"name": "Научпоп"}},
+  {"model": "catalog.genre", "pk": 6, "fields": {"name": "Бизнес"}},
+  {"model": "catalog.genre", "pk": 7, "fields": {"name": "Приключения"}},
+  {"model": "catalog.genre", "pk": 8, "fields": {"name": "Поэзия"}}
+]

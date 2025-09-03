@@ -1,0 +1,10 @@
+[
+  {"model": "catalog.status", "pk": 1, "fields": {"name": "В наличии"}},
+  {"model": "catalog.status", "pk": 2, "fields": {"name": "Выдана"}},
+  {"model": "catalog.status", "pk": 3, "fields": {"name": "Забронирована"}},
+  {"model": "catalog.status", "pk": 4, "fields": {"name": "Потеряна"}},
+  {"model": "catalog.status", "pk": 5, "fields": {"name": "На реставрации"}},
+  {"model": "catalog.status", "pk": 6, "fields": {"name": "Требует проверки"}},
+  {"model": "catalog.status", "pk": 7, "fields": {"name": "Списана"}},
+  {"model": "catalog.status", "pk": 8, "fields": {"name": "Архив"}}
+]

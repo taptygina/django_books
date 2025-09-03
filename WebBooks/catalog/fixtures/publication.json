@@ -1,0 +1,10 @@
+[
+  {"model": "catalog.publisher", "pk": 1, "fields": {"name": "Эксмо"}},
+  {"model": "catalog.publisher", "pk": 2, "fields": {"name": "АСТ"}},
+  {"model": "catalog.publisher", "pk": 3, "fields": {"name": "Питер"}},
+  {"model": "catalog.publisher", "pk": 4, "fields": {"name": "Манн, Иванов и Фербер"}},
+  {"model": "catalog.publisher", "pk": 5, "fields": {"name": "Олимп-Бизнес"}},
+  {"model": "catalog.publisher", "pk": 6, "fields": {"name": "Дрофа"}},
+  {"model": "catalog.publisher", "pk": 7, "fields": {"name": "Просвещение"}},
+  {"model": "catalog.publisher", "pk": 8, "fields": {"name": "Альпина"}}
+]

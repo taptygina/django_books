@@ -1,0 +1,50 @@
+[
+  {"model": "catalog.author", "pk": 1, "fields": {
+    "first_name": "Антон", "last_name": "Чехов",
+    "date_of_birth": "1860-01-29",
+    "about": "Русский писатель, драматург.",
+    "photo": null
+  }},
+  {"model": "catalog.author", "pk": 2, "fields": {
+    "first_name": "Фёдор", "last_name": "Достоевский",
+    "date_of_birth": "1821-11-11",
+    "about": "Русский писатель, философ.",
+    "photo": null
+  }},
+  {"model": "catalog.author", "pk": 3, "fields": {
+    "first_name": "Лев", "last_name": "Толстой",
+    "date_of_birth": "1828-09-09",
+    "about": "Русский писатель, мыслитель.",
+    "photo": null
+  }},
+  {"model": "catalog.author", "pk": 4, "fields": {
+    "first_name": "Александр", "last_name": "Пушкин",
+    "date_of_birth": "1799-06-06",
+    "about": "Русский поэт, драматург, прозаик.",
+    "photo": null
+  }},
+  {"model": "catalog.author", "pk": 5, "fields": {
+    "first_name": "Иван", "last_name": "Тургенев",
+    "date_of_birth": "1818-11-09",
+    "about": "Русский писатель, поэт и драматург.",
+    "photo": null
+  }},
+  {"model": "catalog.author", "pk": 6, "fields": {
+    "first_name": "Николай", "last_name": "Гоголь",
+    "date_of_birth": "1809-03-31",
+    "about": "Русский писатель украинского происхождения.",
+    "photo": null
+  }},
+  {"model": "catalog.author", "pk": 7, "fields": {
+    "first_name": "Михаил", "last_name": "Булгаков",
+    "date_of_birth": "1891-05-15",
+    "about": "Русский писатель и драматург.",
+    "photo": null
+  }},
+  {"model": "catalog.author", "pk": 8, "fields": {
+    "first_name": "Максим", "last_name": "Горький",
+    "date_of_birth": "1868-03-28",
+    "about": "Русский писатель и публицист.",
+    "photo": null
+  }}
+]
