@@ -10,13 +10,14 @@ class Genre(models.Model):
     def __str__(self):
         return self.name
 
-class Language(models.Model):
-        name = models.CharField(max_length=20,
-                                help_text='Введите язык книги',
-                                verbose_name='Язык книги')
 
-        def __str__(self):
-            return self.name
+class Language(models.Model):
+    name = models.CharField(max_length=20,
+                            help_text='Введите язык книги',
+                            verbose_name='Язык книги')
+
+    def __str__(self):
+        return self.name
 
 
 class Publisher(models.Model):
@@ -85,30 +86,38 @@ class Book(models.Model):
                               help_text='Введите изображение обложки',
                               verbose_name='Изображение обложки')
 
+    def display_author(self):
+        return ', '.join([author.last_name for author in self.author.all()])
+
+    display_author.short_descriptions = 'Авторы'
+
     def __str__(self):
         return self.title
 
     def get_absolute_url(self):
         return reverse('book-detail', args=[str(self.id)])
 
-class Status(models.Model):
-        name = models.CharField(max_length=20,
-                                help_text='Введите статус экземпляра книги',
-                                verbose_name='Статус экземпляра книги')
 
-        def __str__(self):
-            return self.name
+class Status(models.Model):
+    name = models.CharField(max_length=20,
+                            help_text='Введите статус экземпляра книги',
+                            verbose_name='Статус экземпляра книги')
+
+    def __str__(self):
+        return self.name
+
 
 class BookInstance(models.Model):
-        book = models.ForeignKey('Book', on_delete=models.CASCADE,
-                                 null=True)
-        inv_nom = models.CharField(max_length=20,
-                                   null=True,
-                                   help_text='Введите инвертарный номер экземпляра',
-                                   verbose_name='Инвертарный номер')
-        status = models.ForeignKey('Status', on_delete=models.CASCADE,
-                                   null=True,
-                                   help_text='Введите состояние экземпляра',
-                                   verbose_name='Статус экземпляра книги')
-        def __str__(self):
-            return '%s %s %s' % (self.inv_nom, self.book, self.status)
+    book = models.ForeignKey('Book', on_delete=models.CASCADE,
+                             null=True)
+    inv_nom = models.CharField(max_length=20,
+                               null=True,
+                               help_text='Введите инвертарный номер экземпляра',
+                               verbose_name='Инвертарный номер')
+    status = models.ForeignKey('Status', on_delete=models.CASCADE,
+                               null=True,
+                               help_text='Введите состояние экземпляра',
+                               verbose_name='Статус экземпляра книги')
+
+    def __str__(self):
+        return '%s %s %s' % (self.inv_nom, self.book, self.status)
